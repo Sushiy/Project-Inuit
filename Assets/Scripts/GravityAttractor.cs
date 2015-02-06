@@ -11,7 +11,7 @@ public class GravityAttractor : MonoBehaviour
 		Vector3 bodyUp = body.up;
 
 		body.rotation = Quaternion.FromToRotation(bodyUp, targetDir) * body.rotation;
-
+		Debug.DrawRay(body.position, targetDir*-10f, Color.cyan);
 		body.rigidbody.AddForce(targetDir * gravity);
 
 	}
