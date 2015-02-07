@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Sphere_CameraController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Sphere_PlayerController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Sphere_CameraController.cs" Line="16" Column="23" />
-      <File FileName="Assets\Scripts\Sphere_PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GravityAttractor.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sphere_CameraController.cs" Line="16" Column="23" />
+      <File FileName="Assets\Scripts\Sphere_PlayerController.cs" Line="290" Column="67" />
+      <File FileName="Assets\Scripts\GravityAttractor.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -288,7 +288,6 @@ public class Sphere_PlayerController : MonoBehaviour
 			foreach(GameObject g in targetList)
 			{
 				Vector3 targetDir = g.transform.position - transform.position;
-				targetDir.y = 0f;
 				if(Vector3.Angle(transform.forward, targetDir) <= targetAngle)
 				{
 					if(targetDir.sqrMagnitude < nearestMagnSqr)
