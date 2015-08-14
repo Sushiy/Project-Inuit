@@ -12,7 +12,7 @@ public class GravityAttractor : MonoBehaviour
 
 		body.rotation = Quaternion.FromToRotation(bodyUp, targetDir) * body.rotation;
 		Debug.DrawRay(body.position, targetDir*-10f, Color.cyan);
-		body.rigidbody.AddForce(targetDir * gravity);
+		body.GetComponent<Rigidbody>().AddForce(targetDir * gravity);
 
 	}
 

@@ -198,7 +198,7 @@ public class Sphere_PlayerController : MonoBehaviour
 	{
 		
 		/*Movement*/
-		rigidbody.MovePosition(rigidbody.position + moveAmount * Time.fixedDeltaTime);
+		GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + moveAmount * Time.fixedDeltaTime);
 		
 	}
 	

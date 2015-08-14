@@ -118,8 +118,8 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log("search new Target");
-			SelectTarget();
+			//Debug.Log("search new Target");
+			//SelectTarget();
 		}
 		//SEARCH TARGET
 		/****TARGETING******/
@@ -176,10 +176,10 @@ public class PlayerController : MonoBehaviour
 		direction = Mathf.Abs(horizontal) >= 0.8? horizontal: direction;
 		/*****MOVEMENT****************/
 
-		textArea.text = null;
+		///textArea.text = null;
 		if(targetMode)
 		{
-			textArea.text = Input.GetAxis("Camera").ToString();
+			//textArea.text = Input.GetAxis("Camera").ToString();
 		}
 
 		//anim.SetBool ("hasSpear", true);
@@ -201,7 +201,7 @@ public class PlayerController : MonoBehaviour
 	{
 
 		/*Movement*/
-		rigidbody.MovePosition(rigidbody.position + moveAmount * Time.fixedDeltaTime);
+		GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + moveAmount * Time.fixedDeltaTime);
 
 	}
 
